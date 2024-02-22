@@ -1,0 +1,16 @@
+body{
+    background-color: #0f0f0f;
+}
+
+NAV{
+    height: 40px;
+    width:100%;
+    background-color: #0f0f0f;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    color:darkcyan;
+    text-decoration: none;
+}

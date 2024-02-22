@@ -1,0 +1,304 @@
+/*index.html CSS */
+body{
+    background-color: #0f0f0f;
+    height: 1000px;
+}
+
+NAV{
+    height: 40px;
+    width:100%;
+    background-color: #0f0f0f;
+    font-size: 20px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    color:darkcyan;
+    text-decoration: none;
+}
+#img{
+    height: 350px;
+    width: 350px;
+    border-top: 5px solid darkcyan;
+    border-radius: 50%;
+    position: fixed;
+    top: 150px;
+    left:100px;
+    background-image:url(myimage.jpg);
+    background-size:cover;
+}
+#img:hover{
+    box-shadow: 0 0 100px darkcyan;
+    border-radius: 50%;
+}
+h3{
+    color:white;
+    font-size: 30px;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 50px;
+}
+p{
+    color:white;
+    font-size: 18px;
+}
+.details{
+    position: fixed ;
+    left: 600px;
+    top:200px;
+}
+#b1{
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color:darkorchid;
+    border: 2px solid darkorchid;
+    border-radius: 10px;
+}
+#b2{
+    height: 30px;
+    width: 100px;
+    margin-left: 50px;
+    background-color: black;
+    color: darkgreen;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+}
+#b1:hover{
+    background-color: darkorchid;
+    color:aliceblue
+}
+#b2:hover{
+    background-color: darkgreen;
+    color: aliceblue;
+}
+
+/* RESUME.HTML CSS*/
+#resume{
+    margin-top: 50PX;
+    margin-left: 400px;
+    display: flex;
+    justify-content: center;
+    height: 850px;
+    width: 600px;
+    border: 2px solid darkcyan;
+    background-image: url(MYRESUME.jpg);
+    background-size:contain;
+}
+#pic{
+    height: 400px;
+    width: 400px;
+    background-color: darkcyan;
+    box-shadow: 0 0 100px darkcyan;
+    border-radius: 50%;
+    position: fixed;
+    top: 150px;
+    left:100px;
+    background-image:url(mypic.jpg);
+    background-size:cover;
+}
+#me{
+    height: 220px;
+    width: 540px;
+    border-radius: 10%;
+    color: aliceblue;
+    margin-top: 120px;
+    margin-left: 800px;
+    display: flex;
+    justify-content: center;
+}
+#line{
+    height: 0;
+    width: 540px;
+    border: 2px solid white;
+    margin-left: 800px;
+}
+#me2{
+    height: 180px;
+    width: 540px;
+    border-radius: 10%;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 800px;
+    display: flex;
+    justify-content: center;
+}
+/* SKILLS CSS*/
+#heading{
+    font-size: 35px;
+    height:50px;
+    width: 210px;
+    color: darkmagenta;
+    border-radius: 12%;
+    margin-left: 600px;
+}
+#c{
+    height: 200px;
+    width: 200px;
+    background-image: url(cc.png);
+    border: 2px solid white;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;  
+}
+#py{
+    height: 200px;
+    width: 200px;
+    background-image: url(python.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;  
+}
+#excel{
+    height: 200px;
+    width: 200px;
+    background-image: url(accounting.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;  
+}
+#css{
+    height: 200px;
+    width: 200px;
+    background-image: url(css.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    margin-top:50px;
+    margin-left: 20px;
+    margin-bottom: 20px;  
+}
+#html{
+    height: 200px;
+    width: 200px;
+    background-image: url(html.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;  
+}
+#java{
+    height: 200px;
+    width: 200px;
+    background-image: url(java.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    margin-top:50px;
+    margin-left: 20px;
+    margin-bottom: 20px;  
+}
+#sql{
+    height: 200px;
+    width: 200px;
+    background-image: url(sql.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;  
+}
+
+.skill{
+margin-left: 200px;
+ height:250px;
+ width: 1000px;
+ display: flex;
+ justify-content: space-evenly;
+ }
+.skill2{
+    margin-left: 200px;
+    height:250px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    margin-left: 200px;
+}
+
+/* Projects  CSS */
+#landingpage{
+height: 190px;
+width: 440px;
+border-radius: 10%;
+background-color: aliceblue;
+box-shadow: 0 0 50px lightblue;
+margin-top: 150px;
+margin-left: 500px;
+background-image: url(landing\ page.png);
+background-size: contain;
+}
+
+#todo{
+ height: 190px;
+ width: 440px;
+ background-color: aliceblue;
+ box-shadow: 0 0 50px pink;
+ margin-top: 100px;
+ margin-left: 500px;
+ background-image: url(todo.png);
+ background-size: contain;
+}
+#portfolio{
+ height: 190px;
+ width: 440px;
+ background-color: aliceblue;
+ box-shadow: 0 0 50px white;
+ margin-top: 100px;
+ margin-left: 500px;
+ background-image: url(PORTFOLIO.png);
+ background-size: contain;
+}
+.footer{
+    margin-left: 15px;
+    height: 400px;
+    width: 1480px;
+    background-color: aliceblue;
+    margin-top: 400px;
+    
+}
+#contact{
+
+    margin-left: 550px;
+}
+#mail{
+    height:50px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 470px;
+    border: 2px solid black;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#link{
+    height:50px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 470px;
+    border: 2px solid black;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#wp{
+    height:50px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 470px;
+    border: 2px solid black;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
